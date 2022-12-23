@@ -1,0 +1,12 @@
+variable shadowing
+in function we can overwrite variable from outside function
+it will create just additional variable of the same name which is only usable
+inside of this function
+
+
+meaning of defer in js
+
+
+selecting dom element 
+1 drill into element
+2 query element
