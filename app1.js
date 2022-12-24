@@ -7,6 +7,7 @@ anchorElement = document.querySelector('a');
 anchorElement.href = 'https://google.com'
 
 
+
 //Add element
 let newAnchor = document.createElement('a');
 newAnchor.href ='https://google.com';
