@@ -1,7 +1,7 @@
-let productName =document.getElementById('product-name');
-let remainingChars = document.getElementById('remaining-chars');
+const productName =document.getElementById('product-name');
+const remainingChars = document.getElementById('remaining-chars');
 
-let maxAllowed = productName.maxLength;
+const maxAllowed = productName.maxLength;
 
 function updateRemaining(event){
     let enteredText =event.target.value;
