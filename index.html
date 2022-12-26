@@ -5,14 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS-2</title>
-    <script src="click.js" defer></script>
+    <script src="demo.js" defer></script>
 </head>
 <body>
    <!-- <h1 id="first-title">Hi There!!</h1>
     <p>I am News</p>
     <p class="paragraph">This is a <a href="#" id="link">link</a></p>
    -->
-   <p>Click Me!</p>
-   <input type="text">
+
+   <!--<p>Click Me!</p>
+   <input type="text">-->
+
+   <form>
+        <div class="control">
+            <label for="product-name">Product Name</label>
+            <input type="text" id="product-name" name="product-name" maxlength="60">
+            <span id="charcount">
+                <span id="remaining-chars">60</span>/60
+            </span>
+        </div>
+        <button>Submit</button>
+   </form>
+
 </body>
 </html>
