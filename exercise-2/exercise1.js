@@ -16,6 +16,7 @@ const secondButton = document.getElementById('change-bg-btn');
 function removeParagraph(){
  
     console.dir(firstButton);
+    thirdParagraph.remove();
 }
 
 function changeBackground(event){
