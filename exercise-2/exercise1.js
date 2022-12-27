@@ -22,6 +22,7 @@ function removeParagraph(){
 function changeBackground(event){
 
     console.dir(event.target);
+    firstParagraphElement.style.backgroundColor = 'lightblue';
 
 }
 
