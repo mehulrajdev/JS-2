@@ -31,9 +31,11 @@ secondButton.addEventListener('click',changeBackground);
 //    - Select BOTH paragraphs by drilling into the document and "navigating" to the
 //      mentioned elements
 
-const firstParagraph =document.body.children[2].children[1];
-console.log(firstParagraph);
+const firstParagraphElement =document.body.children[2].children[1];
+console.log(firstParagraphElement);
 
+const thirdParagraph =document.body.children[2].children[3];
+console.log(thirdParagraph);
 
 //    - If you struggle with DOM drilling, use "ids" instead but watch the solution!
 // 4) Change the functions from (2) such that:
