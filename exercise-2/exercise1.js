@@ -40,4 +40,4 @@ console.log(thirdParagraph);
 //    - The first button removes the third paragraph (i.e. the <p> prior to it)
 //    - The second button changes the background color of the first paragraph to blue
 // 5) Solve (4) both by changing the "inline styles" as well as by adding CSS classes
-//    Note: You'll have to add those classes to the styles.css file first!
+//    Note: You must first add those classes to the styles.css file!
