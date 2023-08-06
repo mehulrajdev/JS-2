@@ -1,4 +1,4 @@
-var name = "Akan";
+var name = "Aka";
 var age = 20;
 var basicsal = 200000;
 
