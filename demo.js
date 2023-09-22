@@ -1,6 +1,5 @@
 const productName =document.getElementById('product-name');
 const remainingChars = document.getElementById('remaining-chars');
-
 const maxAllowed = productName.maxLength;
 
 function updateRemaining(event){
